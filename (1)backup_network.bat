@@ -1,0 +1,1 @@
+  @echo off  echo Сохранение текущих настроек IP...  netsh interface ip dump > C:\backup_network_settings.txt  echo Настройки сохранены в C:\backup_network_settings.txt  pause
